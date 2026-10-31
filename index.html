@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>NFL Wins &amp; Losses Pool</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏈</text></svg>">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <h1>🏈 Wins &amp; Losses Pool</h1>
+    <p class="sub"><span id="season"></span></p>
+    <p id="updated" class="updated">Loading scores…</p>
+    <nav>
+      <a href="#standings-section">Standings</a>
+      <a href="#week-section">This week</a>
+      <a href="#top-section">Top picks</a>
+    </nav>
+  </header>
+
+  <main>
+    <div id="errors" class="errors" hidden></div>
+
+    <section id="standings-section">
+      <h2>Season standings</h2>
+      <p class="hint">Tap a name to see their picks.</p>
+      <div id="standings" class="list"></div>
+    </section>
+
+    <section id="week-section">
+      <div class="section-head">
+        <h2 id="week-title">This week</h2>
+        <div class="week-nav">
+          <button id="week-prev" aria-label="Previous week">‹</button>
+          <select id="week-select" aria-label="Choose week"></select>
+          <button id="week-next" aria-label="Next week">›</button>
+        </div>
+      </div>
+      <div id="week" class="cards"></div>
+    </section>
+
+    <section id="top-section">
+      <h2>Top picks</h2>
+      <p class="hint">Every pick ranked by points so far.</p>
+      <ol id="top-picks" class="top-picks"></ol>
+    </section>
+  </main>
+
+  <footer>Scores from ESPN · 1 point per win for “wins” picks, 1 point per loss for “losses” picks.</footer>
+
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>

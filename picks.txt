@@ -1,0 +1,38 @@
+# ============================================================
+#  NFL POOL PICKS  —  this is the only file you need to edit
+# ============================================================
+#
+# How to write it:
+#   * Put each person's name on its own line, ending with a colon.
+#   * Under the name, list their picks ONE PER LINE, in draft order
+#     (first line = Round 1, second line = Round 2, and so on).
+#   * Each pick is a team followed by the word  wins  or  losses.
+#   * The team can be the nickname (Vikings), the city (Minnesota),
+#     or the abbreviation (MIN). For the two LA and two NY teams,
+#     use the nickname (Rams, Chargers, Giants, Jets).
+#   * Blank lines and lines starting with # are ignored.
+#
+# Example:
+#   Matt:
+#   Vikings wins
+#   Giants losses
+#
+# The people below are PLACEHOLDERS — replace them with the real picks.
+
+Alex:
+Vikings wins
+Giants losses
+Eagles wins
+Titans losses
+
+Jordan:
+Chiefs wins
+Panthers losses
+Lions wins
+Browns losses
+
+Sam:
+Bills wins
+Jets losses
+Ravens wins
+Saints losses
