@@ -17,22 +17,56 @@
 #   Vikings wins
 #   Giants losses
 #
-# The people below are PLACEHOLDERS — replace them with the real picks.
+Swill:
+Bills wins
+Eagles wins
+Bengals wins
+Jaguars wins
+Giants losses
+Panthers wins
+Lions losses
+
+Steigman:
+Dolphins losses
+Seahawks wins
+Patriots wins
+Packers wins
+Cowboys wins
+Steelers losses
+Falcons wins
+
+David:
+Cardinals losses
+Lions wins
+Saints losses
+Chargers wins
+Colts losses
+Bucs losses
+Eagles losses
+
+Avery:
+Titans losses
+Jets losses
+Panthers losses
+Broncos wins
+Steelers wins
+Vikings wins
+Chiefs losses
+
+Henry:
+Browns losses
+Ravens wins
+Falcons losses
+Chiefs wins
+Bears wins
+Niners wins
+Titans wins
 
 Alex:
-Vikings wins
-Giants losses
-Eagles wins
-Titans losses
-
-Jordan:
-Chiefs wins
-Panthers losses
-Lions wins
-Browns losses
-
-Sam:
-Bills wins
-Jets losses
-Ravens wins
-Saints losses
+Raiders losses
+Rams wins
+Texans wins
+Commanders losses
+Bucs wins
+Vikings losses
+Bengals losses
