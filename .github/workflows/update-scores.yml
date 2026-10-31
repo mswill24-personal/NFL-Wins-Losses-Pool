@@ -1,0 +1,41 @@
+name: Update scores
+
+# Backup copy of the scores, saved in data/scores.json.
+# The website normally gets scores straight from ESPN; it only uses this
+# saved copy if that live request fails.
+on:
+  schedule:
+    - cron: '17 */3 * * *' # every 3 hours (times are UTC)
+  workflow_dispatch: # adds a "Run workflow" button on the Actions tab
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-scores
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Fetch scores from ESPN
+        run: node scripts/update-scores.js
+
+      - name: Save scores to the repo
+        run: |
+          if git diff --quiet -- data/scores.json; then
+            echo "Nothing changed."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898333+github-actions[bot]@users.noreply.github.com"
+          git add data/scores.json
+          git commit -m "Update scores"
+          git push

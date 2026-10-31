@@ -1,0 +1,93 @@
+:root {
+  --bg: #f3f5f2;
+  --surface: #ffffff;
+  --text: #1c2420;
+  --muted: #66716b;
+  --line: #dfe5e0;
+  --accent: #1f6b3a;
+  --accent-soft: #e3f1e7;
+  --wins: #1f6b3a;
+  --losses: #a3341f;
+  --live: #b26b00;
+  --error-bg: #fdecea;
+  --error-text: #8a1f11;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #111613;
+    --surface: #1a211d;
+    --text: #e6ece8;
+    --muted: #93a099;
+    --line: #2c3530;
+    --accent: #5cc184;
+    --accent-soft: #1f3327;
+    --wins: #5cc184;
+    --losses: #f08a73;
+    --live: #f0b04f;
+    --error-bg: #3a1d18;
+    --error-text: #ffb4a6;
+  }
+}
+
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font: 16px/1.45 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+}
+header, main, footer { max-width: 760px; margin: 0 auto; padding: 0 16px; }
+header { padding-top: 24px; }
+h1 { margin: 0; font-size: 1.8rem; }
+h2 { margin: 0 0 4px; font-size: 1.3rem; }
+.sub { margin: 2px 0 0; color: var(--muted); }
+.updated { margin: 10px 0; padding: 8px 12px; background: var(--accent-soft); border-radius: 8px; font-size: .9rem; }
+nav { display: flex; gap: 8px; flex-wrap: wrap; margin: 12px 0 4px; }
+nav a { color: var(--accent); text-decoration: none; font-weight: 600; padding: 4px 10px; border: 1px solid var(--line); border-radius: 999px; background: var(--surface); }
+section { margin: 28px 0; }
+.hint { margin: 0 0 10px; color: var(--muted); font-size: .9rem; }
+.muted { color: var(--muted); }
+footer { color: var(--muted); font-size: .85rem; padding-bottom: 32px; }
+
+.errors { background: var(--error-bg); color: var(--error-text); padding: 12px 16px; border-radius: 8px; margin-top: 16px; }
+.errors ul { margin: 6px 0 0; padding-left: 20px; }
+
+.rank { display: inline-block; min-width: 2em; color: var(--muted); font-weight: 600; }
+.name { font-weight: 600; flex: 1; }
+.total { font-weight: 700; font-size: 1.2rem; color: var(--accent); font-variant-numeric: tabular-nums; }
+.pick.wins { color: var(--wins); font-weight: 600; }
+.pick.losses { color: var(--losses); font-weight: 600; }
+.pts { margin-left: auto; font-weight: 700; font-variant-numeric: tabular-nums; }
+
+/* Season standings */
+.list { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; overflow: hidden; }
+.row + .row { border-top: 1px solid var(--line); }
+.row summary { display: flex; align-items: center; gap: 8px; padding: 12px 14px; cursor: pointer; list-style: none; }
+.row summary::-webkit-details-marker { display: none; }
+.row summary::after { content: "▸"; color: var(--muted); margin-left: 6px; }
+.row[open] summary::after { content: "▾"; }
+.picks { list-style: none; margin: 0; padding: 0 14px 12px 46px; }
+.picks li { display: flex; gap: 6px; align-items: baseline; padding: 3px 0; flex-wrap: wrap; }
+.rd { color: var(--muted); font-size: .85rem; min-width: 3em; }
+
+/* This week */
+.section-head { display: flex; justify-content: space-between; align-items: center; gap: 12px; flex-wrap: wrap; margin-bottom: 10px; }
+.week-nav { display: flex; gap: 6px; }
+.week-nav button, .week-nav select {
+  font: inherit; padding: 6px 10px; border: 1px solid var(--line); border-radius: 8px;
+  background: var(--surface); color: var(--text); cursor: pointer;
+}
+.week-nav button:disabled { opacity: .4; cursor: default; }
+.cards { display: grid; gap: 10px; }
+.card { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 12px 14px; }
+.card-head { display: flex; align-items: center; gap: 8px; margin-bottom: 6px; }
+.week-picks { list-style: none; margin: 0; padding: 0 0 0 calc(2em + 8px); }
+.week-picks li { padding: 2px 0; }
+.week-picks li.live b, .week-picks li.live .muted { color: var(--live); }
+
+/* Top picks */
+.top-picks { list-style: none; margin: 0; padding: 0; background: var(--surface); border: 1px solid var(--line); border-radius: 10px; }
+.top-picks li { display: flex; align-items: baseline; gap: 8px; padding: 9px 14px; flex-wrap: wrap; }
+.top-picks li + li { border-top: 1px solid var(--line); }
+.who { color: var(--muted); font-size: .9rem; }
+.top-picks .pts { font-size: 1.1rem; color: var(--accent); }
