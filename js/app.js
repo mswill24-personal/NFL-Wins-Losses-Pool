@@ -2,6 +2,8 @@ import { findTeam, teamName } from './teams.js';
 import { fetchSeason } from './espn.js';
 
 const REFRESH_MINUTES = 5;
+// Which names are expanded, so they stay open when scores refresh or the week changes.
+const openRows = { standings: new Set(), week: new Set() };
 const state = { pool: null, scores: null, source: null, liveError: null, week: null, followCurrent: true };
 
 // ---------- picks.txt ----------
@@ -124,7 +126,7 @@ function renderStandings() {
                 <span class="muted">(${recordText(s.record)})</span><span class="pts">${s.points}</span></li>`;
             })
             .join('');
-          return `<details class="row">
+          return `<details class="row" data-name="${esc(p.name)}"${openRows.standings.has(p.name) ? ' open' : ''}>
             <summary><span class="rank">${rank}</span><span class="name">${esc(p.name)}</span><span class="total">${p.total}</span></summary>
             <ul class="picks">${picks}</ul></details>`;
         })
@@ -161,9 +163,9 @@ function renderWeek() {
           return `<li class="${r.kind}"><span class="pick ${pk.type}">${esc(pickLabel(pk))}:</span> <b>${shown}</b> <span class="muted">(${esc(r.text)})</span></li>`;
         })
         .join('');
-      return `<div class="card">
-        <div class="card-head"><span class="rank">${rank}</span><span class="name">${esc(p.name)}</span><span class="total">${p.total}</span></div>
-        <ul class="week-picks">${lines}</ul></div>`;
+      return `<details class="row" data-name="${esc(p.name)}"${openRows.week.has(p.name) ? ' open' : ''}>
+        <summary><span class="rank">${rank}</span><span class="name">${esc(p.name)}</span><span class="total">${p.total}</span></summary>
+        <ul class="week-picks">${lines}</ul></details>`;
     })
     .join('');
 }
@@ -251,6 +253,13 @@ function goToWeek(w) {
   state.week = Number(w);
   state.followCurrent = state.week === state.scores?.currentWeek;
   renderWeek();
+}
+for (const id of Object.keys(openRows)) {
+  // "toggle" doesn't bubble, so listen in the capture phase
+  $(id).addEventListener('toggle', (e) => {
+    const name = e.target.dataset.name;
+    if (name != null) e.target.open ? openRows[id].add(name) : openRows[id].delete(name);
+  }, true);
 }
 $('week-select').addEventListener('change', (e) => goToWeek(e.target.value));
 $('week-prev').addEventListener('click', () => goToWeek(state.week - 1));
