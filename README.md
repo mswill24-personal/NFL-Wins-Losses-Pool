@@ -1,4 +1,4 @@
-# NFL Wins & Losses Pool
+# NFL Skins League (Vandy)
 
 A small website that tracks the pool. It's plain HTML, CSS and JavaScript with no build step, so it runs on GitHub Pages as is.
 
