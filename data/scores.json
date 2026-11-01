@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-31T19:41:25.297Z",
+ "updated": "2026-11-01T18:58:39.174Z",
  "season": 2026,
  "currentWeek": 8,
  "weeks": {
@@ -1533,113 +1533,113 @@
    {
     "id": "401873026",
     "date": "2026-11-01T18:00Z",
-    "status": "upcoming",
-    "detail": "11/1 - 1:00 PM EST",
+    "status": "live",
+    "detail": "12:29 - 2nd",
     "home": {
      "team": "BUF",
-     "score": null
+     "score": 10
     },
     "away": {
      "team": "BAL",
-     "score": null
+     "score": 7
     }
    },
    {
     "id": "401873031",
     "date": "2026-11-01T18:00Z",
-    "status": "upcoming",
-    "detail": "11/1 - 1:00 PM EST",
+    "status": "live",
+    "detail": "11:06 - 2nd",
     "home": {
      "team": "CIN",
-     "score": null
+     "score": 7
     },
     "away": {
      "team": "TEN",
-     "score": null
+     "score": 13
     }
    },
    {
     "id": "401873024",
     "date": "2026-11-01T18:00Z",
-    "status": "upcoming",
-    "detail": "11/1 - 1:00 PM EST",
+    "status": "live",
+    "detail": "7:23 - 2nd",
     "home": {
      "team": "DAL",
-     "score": null
+     "score": 7
     },
     "away": {
      "team": "ARI",
-     "score": null
+     "score": 0
     }
    },
    {
     "id": "401873030",
     "date": "2026-11-01T18:00Z",
-    "status": "upcoming",
-    "detail": "11/1 - 1:00 PM EST",
+    "status": "live",
+    "detail": "11:35 - 2nd",
     "home": {
      "team": "DET",
-     "score": null
+     "score": 3
     },
     "away": {
      "team": "MIN",
-     "score": null
+     "score": 7
     }
    },
    {
     "id": "401873029",
     "date": "2026-11-01T18:00Z",
-    "status": "upcoming",
-    "detail": "11/1 - 1:00 PM EST",
+    "status": "live",
+    "detail": "8:42 - 2nd",
     "home": {
      "team": "NYJ",
-     "score": null
+     "score": 13
     },
     "away": {
      "team": "LV",
-     "score": null
+     "score": 14
     }
    },
    {
     "id": "401873027",
     "date": "2026-11-01T18:00Z",
-    "status": "upcoming",
-    "detail": "11/1 - 1:00 PM EST",
+    "status": "live",
+    "detail": "8:43 - 2nd",
     "home": {
      "team": "PIT",
-     "score": null
+     "score": 10
     },
     "away": {
      "team": "CLE",
-     "score": null
+     "score": 3
     }
    },
    {
     "id": "401873025",
     "date": "2026-11-01T18:00Z",
-    "status": "upcoming",
-    "detail": "11/1 - 1:00 PM EST",
+    "status": "live",
+    "detail": "7:11 - 2nd",
     "home": {
      "team": "TB",
-     "score": null
+     "score": 6
     },
     "away": {
      "team": "ATL",
-     "score": null
+     "score": 0
     }
    },
    {
     "id": "401873028",
     "date": "2026-11-01T18:00Z",
-    "status": "upcoming",
-    "detail": "11/1 - 1:00 PM EST",
+    "status": "live",
+    "detail": "9:05 - 2nd",
     "home": {
      "team": "JAX",
-     "score": null
+     "score": 7
     },
     "away": {
      "team": "IND",
-     "score": null
+     "score": 0
     }
    },
    {
