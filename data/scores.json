@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-01T21:49:54.086Z",
+ "updated": "2026-11-02T01:25:16.320Z",
  "season": 2026,
  "currentWeek": 8,
  "weeks": {
@@ -1645,57 +1645,57 @@
    {
     "id": "401873032",
     "date": "2026-11-01T21:05Z",
-    "status": "live",
-    "detail": "13:19 - 2nd",
+    "status": "final",
+    "detail": "Final",
     "home": {
      "team": "LAR",
-     "score": 3
+     "score": 24
     },
     "away": {
      "team": "LAC",
-     "score": 3
+     "score": 9
     }
    },
    {
     "id": "401873033",
     "date": "2026-11-01T21:25Z",
-    "status": "live",
-    "detail": "4:29 - 1st",
+    "status": "final",
+    "detail": "Final",
     "home": {
      "team": "DEN",
-     "score": 3
+     "score": 28
     },
     "away": {
      "team": "KC",
-     "score": 7
+     "score": 24
     }
    },
    {
     "id": "401873034",
     "date": "2026-11-01T21:25Z",
-    "status": "live",
-    "detail": "3:39 - 1st",
+    "status": "final",
+    "detail": "Final",
     "home": {
      "team": "MIA",
-     "score": 3
+     "score": 19
     },
     "away": {
      "team": "NE",
-     "score": 3
+     "score": 24
     }
    },
    {
     "id": "401873035",
     "date": "2026-11-02T01:20Z",
-    "status": "upcoming",
-    "detail": "11/1 - 8:20 PM EST",
+    "status": "live",
+    "detail": "14:53 - 1st",
     "home": {
      "team": "WSH",
-     "score": null
+     "score": 0
     },
     "away": {
      "team": "PHI",
-     "score": null
+     "score": 0
     }
    },
    {
