@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-03T01:22:34.806Z",
+ "updated": "2026-11-03T04:06:44.639Z",
  "season": 2026,
  "currentWeek": 8,
  "weeks": {
@@ -1702,14 +1702,14 @@
     "id": "401873036",
     "date": "2026-11-03T01:15Z",
     "status": "live",
-    "detail": "12:16 - 1st",
+    "detail": "4:46 - 4th",
     "home": {
      "team": "SEA",
-     "score": 0
+     "score": 17
     },
     "away": {
      "team": "CHI",
-     "score": 0
+     "score": 27
     }
    }
   ]
