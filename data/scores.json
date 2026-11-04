@@ -1,7 +1,7 @@
 {
- "updated": "2026-11-03T07:29:10.788Z",
+ "updated": "2026-11-04T07:33:42.046Z",
  "season": 2026,
- "currentWeek": 8,
+ "currentWeek": 9,
  "weeks": {
   "1": [
    {
@@ -1710,6 +1710,218 @@
     "away": {
      "team": "CHI",
      "score": 34
+    }
+   }
+  ],
+  "9": [
+   {
+    "id": "401873037",
+    "date": "2026-11-06T01:15Z",
+    "status": "upcoming",
+    "detail": "11/5 - 8:15 PM EST",
+    "home": {
+     "team": "BAL",
+     "score": null
+    },
+    "away": {
+     "team": "JAX",
+     "score": null
+    }
+   },
+   {
+    "id": "401873038",
+    "date": "2026-11-08T14:30Z",
+    "status": "upcoming",
+    "detail": "11/8 - 9:30 AM EST",
+    "home": {
+     "team": "ATL",
+     "score": null
+    },
+    "away": {
+     "team": "CIN",
+     "score": null
+    }
+   },
+   {
+    "id": "401873040",
+    "date": "2026-11-08T18:00Z",
+    "status": "upcoming",
+    "detail": "11/8 - 1:00 PM EST",
+    "home": {
+     "team": "IND",
+     "score": null
+    },
+    "away": {
+     "team": "DAL",
+     "score": null
+    }
+   },
+   {
+    "id": "401873045",
+    "date": "2026-11-08T18:00Z",
+    "status": "upcoming",
+    "detail": "11/8 - 1:00 PM EST",
+    "home": {
+     "team": "KC",
+     "score": null
+    },
+    "away": {
+     "team": "NYJ",
+     "score": null
+    }
+   },
+   {
+    "id": "401873042",
+    "date": "2026-11-08T18:00Z",
+    "status": "upcoming",
+    "detail": "11/8 - 1:00 PM EST",
+    "home": {
+     "team": "MIA",
+     "score": null
+    },
+    "away": {
+     "team": "DET",
+     "score": null
+    }
+   },
+   {
+    "id": "401873039",
+    "date": "2026-11-08T18:00Z",
+    "status": "upcoming",
+    "detail": "11/8 - 1:00 PM EST",
+    "home": {
+     "team": "NO",
+     "score": null
+    },
+    "away": {
+     "team": "CLE",
+     "score": null
+    }
+   },
+   {
+    "id": "401873044",
+    "date": "2026-11-08T18:00Z",
+    "status": "upcoming",
+    "detail": "11/8 - 1:00 PM EST",
+    "home": {
+     "team": "PHI",
+     "score": null
+    },
+    "away": {
+     "team": "NYG",
+     "score": null
+    }
+   },
+   {
+    "id": "401873043",
+    "date": "2026-11-08T18:00Z",
+    "status": "upcoming",
+    "detail": "11/8 - 1:00 PM EST",
+    "home": {
+     "team": "WSH",
+     "score": null
+    },
+    "away": {
+     "team": "LAR",
+     "score": null
+    }
+   },
+   {
+    "id": "401873041",
+    "date": "2026-11-08T18:00Z",
+    "status": "upcoming",
+    "detail": "11/8 - 1:00 PM EST",
+    "home": {
+     "team": "CAR",
+     "score": null
+    },
+    "away": {
+     "team": "DEN",
+     "score": null
+    }
+   },
+   {
+    "id": "401873046",
+    "date": "2026-11-08T21:05Z",
+    "status": "upcoming",
+    "detail": "11/8 - 4:05 PM EST",
+    "home": {
+     "team": "LAC",
+     "score": null
+    },
+    "away": {
+     "team": "HOU",
+     "score": null
+    }
+   },
+   {
+    "id": "401873049",
+    "date": "2026-11-08T21:25Z",
+    "status": "upcoming",
+    "detail": "11/8 - 4:25 PM EST",
+    "home": {
+     "team": "NE",
+     "score": null
+    },
+    "away": {
+     "team": "GB",
+     "score": null
+    }
+   },
+   {
+    "id": "401873047",
+    "date": "2026-11-08T21:25Z",
+    "status": "upcoming",
+    "detail": "11/8 - 4:25 PM EST",
+    "home": {
+     "team": "SF",
+     "score": null
+    },
+    "away": {
+     "team": "LV",
+     "score": null
+    }
+   },
+   {
+    "id": "401873048",
+    "date": "2026-11-08T21:25Z",
+    "status": "upcoming",
+    "detail": "11/8 - 4:25 PM EST",
+    "home": {
+     "team": "SEA",
+     "score": null
+    },
+    "away": {
+     "team": "ARI",
+     "score": null
+    }
+   },
+   {
+    "id": "401873050",
+    "date": "2026-11-09T01:20Z",
+    "status": "upcoming",
+    "detail": "11/8 - 8:20 PM EST",
+    "home": {
+     "team": "CHI",
+     "score": null
+    },
+    "away": {
+     "team": "TB",
+     "score": null
+    }
+   },
+   {
+    "id": "401873051",
+    "date": "2026-11-10T01:15Z",
+    "status": "upcoming",
+    "detail": "11/9 - 8:15 PM EST",
+    "home": {
+     "team": "MIN",
+     "score": null
+    },
+    "away": {
+     "team": "BUF",
+     "score": null
     }
    }
   ]
