@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-04T07:33:42.046Z",
+ "updated": "2026-11-06T01:27:06.862Z",
  "season": 2026,
  "currentWeek": 9,
  "weeks": {
@@ -1717,15 +1717,15 @@
    {
     "id": "401873037",
     "date": "2026-11-06T01:15Z",
-    "status": "upcoming",
-    "detail": "11/5 - 8:15 PM EST",
+    "status": "live",
+    "detail": "11:20 - 1st",
     "home": {
      "team": "BAL",
-     "score": null
+     "score": 0
     },
     "away": {
      "team": "JAX",
-     "score": null
+     "score": 7
     }
    },
    {
