@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-06T04:09:12.465Z",
+ "updated": "2026-11-08T15:51:56.698Z",
  "season": 2026,
  "currentWeek": 9,
  "weeks": {
@@ -1731,15 +1731,15 @@
    {
     "id": "401873038",
     "date": "2026-11-08T14:30Z",
-    "status": "upcoming",
-    "detail": "11/8 - 9:30 AM EST",
+    "status": "live",
+    "detail": "1:10 - 2nd",
     "home": {
      "team": "ATL",
-     "score": null
+     "score": 10
     },
     "away": {
      "team": "CIN",
-     "score": null
+     "score": 21
     }
    },
    {
