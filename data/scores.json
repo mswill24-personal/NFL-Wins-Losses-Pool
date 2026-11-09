@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-09T01:27:44.411Z",
+ "updated": "2026-11-09T04:14:26.210Z",
  "season": 2026,
  "currentWeek": 9,
  "weeks": {
@@ -1900,14 +1900,14 @@
     "id": "401873050",
     "date": "2026-11-09T01:20Z",
     "status": "live",
-    "detail": "12:33 - 1st",
+    "detail": "7:26 - 4th",
     "home": {
      "team": "CHI",
-     "score": 0
+     "score": 24
     },
     "away": {
      "team": "TB",
-     "score": 0
+     "score": 16
     }
    },
    {
