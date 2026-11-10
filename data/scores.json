@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-09T07:43:51.738Z",
+ "updated": "2026-11-10T01:20:15.988Z",
  "season": 2026,
  "currentWeek": 9,
  "weeks": {
@@ -1913,15 +1913,15 @@
    {
     "id": "401873051",
     "date": "2026-11-10T01:15Z",
-    "status": "upcoming",
-    "detail": "11/9 - 8:15 PM EST",
+    "status": "live",
+    "detail": "13:51 - 1st",
     "home": {
      "team": "MIN",
-     "score": null
+     "score": 0
     },
     "away": {
      "team": "BUF",
-     "score": null
+     "score": 0
     }
    }
   ]
