@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-13T01:25:59.342Z",
+ "updated": "2026-11-13T04:11:01.778Z",
  "season": 2026,
  "currentWeek": 10,
  "weeks": {
@@ -1930,14 +1930,14 @@
     "id": "401873052",
     "date": "2026-11-13T01:15Z",
     "status": "live",
-    "detail": "11:18 - 1st",
+    "detail": "1:33 - 4th",
     "home": {
      "team": "NYG",
-     "score": 0
+     "score": 21
     },
     "away": {
      "team": "WSH",
-     "score": 0
+     "score": 17
     }
    },
    {
