@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-13T07:34:13.802Z",
+ "updated": "2026-11-15T15:54:44.370Z",
  "season": 2026,
  "currentWeek": 10,
  "weeks": {
@@ -1943,15 +1943,15 @@
    {
     "id": "401873053",
     "date": "2026-11-15T14:30Z",
-    "status": "upcoming",
-    "detail": "11/15 - 9:30 AM EST",
+    "status": "live",
+    "detail": "2:00 - 2nd",
     "home": {
      "team": "DET",
-     "score": null
+     "score": 21
     },
     "away": {
      "team": "NE",
-     "score": null
+     "score": 3
     }
    },
    {
