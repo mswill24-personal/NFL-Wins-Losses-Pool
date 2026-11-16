@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15T21:52:59.592Z",
+ "updated": "2026-11-16T01:41:19.140Z",
  "season": 2026,
  "currentWeek": 10,
  "weeks": {
@@ -2055,57 +2055,57 @@
    {
     "id": "401873062",
     "date": "2026-11-15T21:05Z",
-    "status": "live",
-    "detail": "8:45 - 2nd",
+    "status": "final",
+    "detail": "Final",
     "home": {
      "team": "LV",
-     "score": 10
+     "score": 13
     },
     "away": {
      "team": "SEA",
-     "score": 7
+     "score": 21
     }
    },
    {
     "id": "401873061",
     "date": "2026-11-15T21:05Z",
-    "status": "live",
-    "detail": "12:14 - 2nd",
+    "status": "final",
+    "detail": "Final",
     "home": {
      "team": "ARI",
      "score": 6
     },
     "away": {
      "team": "LAR",
-     "score": 3
+     "score": 34
     }
    },
    {
     "id": "401873063",
     "date": "2026-11-15T21:25Z",
-    "status": "live",
-    "detail": "3:58 - 1st",
+    "status": "final",
+    "detail": "Final",
     "home": {
      "team": "DAL",
-     "score": 3
+     "score": 40
     },
     "away": {
      "team": "SF",
-     "score": 7
+     "score": 46
     }
    },
    {
     "id": "401873064",
     "date": "2026-11-16T01:20Z",
-    "status": "upcoming",
-    "detail": "11/15 - 8:20 PM EST",
+    "status": "live",
+    "detail": "7:56 - 1st",
     "home": {
      "team": "CIN",
-     "score": null
+     "score": 3
     },
     "away": {
      "team": "PIT",
-     "score": null
+     "score": 0
     }
    },
    {
