@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16T01:41:19.140Z",
+ "updated": "2026-11-16T04:50:56.992Z",
  "season": 2026,
  "currentWeek": 10,
  "weeks": {
@@ -2097,15 +2097,15 @@
    {
     "id": "401873064",
     "date": "2026-11-16T01:20Z",
-    "status": "live",
-    "detail": "7:56 - 1st",
+    "status": "final",
+    "detail": "Final",
     "home": {
      "team": "CIN",
-     "score": 3
+     "score": 38
     },
     "away": {
      "team": "PIT",
-     "score": 0
+     "score": 18
     }
    },
    {
