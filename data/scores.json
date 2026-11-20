@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18T07:35:06.906Z",
+ "updated": "2026-11-20T01:26:18.286Z",
  "season": 2026,
  "currentWeek": 11,
  "weeks": {
@@ -2127,15 +2127,15 @@
    {
     "id": "401873066",
     "date": "2026-11-20T01:15Z",
-    "status": "upcoming",
-    "detail": "11/19 - 8:15 PM EST",
+    "status": "live",
+    "detail": "10:55 - 1st",
     "home": {
      "team": "HOU",
-     "score": null
+     "score": 0
     },
     "away": {
      "team": "IND",
-     "score": null
+     "score": 0
     }
    },
    {
