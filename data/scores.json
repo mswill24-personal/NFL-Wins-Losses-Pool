@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T01:47:24.351Z",
+ "updated": "2026-11-23T12:56:37.734Z",
  "season": 2026,
  "currentWeek": 11,
  "weeks": {
@@ -2281,15 +2281,15 @@
    {
     "id": "401873077",
     "date": "2026-11-23T01:20Z",
-    "status": "live",
-    "detail": "6:01 - 1st",
+    "status": "final",
+    "detail": "Final",
     "home": {
      "team": "SF",
-     "score": 7
+     "score": 35
     },
     "away": {
      "team": "MIN",
-     "score": 0
+     "score": 10
     }
    },
    {
