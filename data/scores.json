@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T19:45:38.897Z",
+ "updated": "2026-11-23T01:47:24.351Z",
  "season": 2026,
  "currentWeek": 11,
  "weeks": {
@@ -2141,67 +2141,67 @@
    {
     "id": "401873070",
     "date": "2026-11-22T18:00Z",
-    "status": "live",
-    "detail": "Halftime",
+    "status": "final",
+    "detail": "Final",
     "home": {
      "team": "BUF",
-     "score": 20
+     "score": 26
     },
     "away": {
      "team": "MIA",
-     "score": 6
+     "score": 9
     }
    },
    {
     "id": "401873071",
     "date": "2026-11-22T18:00Z",
-    "status": "live",
-    "detail": "Halftime",
+    "status": "final",
+    "detail": "Final",
     "home": {
      "team": "CHI",
-     "score": 16
+     "score": 21
     },
     "away": {
      "team": "NO",
-     "score": 10
+     "score": 13
     }
    },
    {
     "id": "401873073",
     "date": "2026-11-22T18:00Z",
-    "status": "live",
-    "detail": "13:08 - 3rd",
+    "status": "final",
+    "detail": "Final",
     "home": {
      "team": "DAL",
-     "score": 27
+     "score": 51
     },
     "away": {
      "team": "TEN",
-     "score": 15
+     "score": 30
     }
    },
    {
     "id": "401873072",
     "date": "2026-11-22T18:00Z",
-    "status": "live",
-    "detail": "11:56 - 3rd",
+    "status": "final",
+    "detail": "Final",
     "home": {
      "team": "DET",
-     "score": 10
+     "score": 31
     },
     "away": {
      "team": "TB",
-     "score": 7
+     "score": 21
     }
    },
    {
     "id": "401873067",
     "date": "2026-11-22T18:00Z",
-    "status": "live",
-    "detail": "10:28 - 3rd",
+    "status": "final",
+    "detail": "Final",
     "home": {
      "team": "KC",
-     "score": 27
+     "score": 34
     },
     "away": {
      "team": "ARI",
@@ -2211,85 +2211,85 @@
    {
     "id": "401873076",
     "date": "2026-11-22T18:00Z",
-    "status": "live",
-    "detail": "12:52 - 3rd",
+    "status": "final",
+    "detail": "Final",
     "home": {
      "team": "PHI",
-     "score": 13
+     "score": 19
     },
     "away": {
      "team": "PIT",
-     "score": 6
+     "score": 16
     }
    },
    {
     "id": "401873068",
     "date": "2026-11-22T18:00Z",
-    "status": "live",
-    "detail": "Halftime",
+    "status": "final",
+    "detail": "Final",
     "home": {
      "team": "CAR",
-     "score": 22
+     "score": 35
     },
     "away": {
      "team": "BAL",
-     "score": 26
+     "score": 33
     }
    },
    {
     "id": "401873074",
     "date": "2026-11-22T21:05Z",
-    "status": "upcoming",
-    "detail": "11/22 - 4:05 PM EST",
+    "status": "final",
+    "detail": "Final",
     "home": {
      "team": "LAC",
-     "score": null
+     "score": 24
     },
     "away": {
      "team": "NYJ",
-     "score": null
+     "score": 27
     }
    },
    {
     "id": "401873075",
     "date": "2026-11-22T21:25Z",
-    "status": "upcoming",
-    "detail": "11/22 - 4:25 PM EST",
+    "status": "final",
+    "detail": "Final",
     "home": {
      "team": "DEN",
-     "score": null
+     "score": 38
     },
     "away": {
      "team": "LV",
-     "score": null
+     "score": 24
     }
    },
    {
     "id": "401873069",
     "date": "2026-11-22T21:25Z",
-    "status": "upcoming",
-    "detail": "11/22 - 4:25 PM EST",
+    "status": "final",
+    "detail": "Final",
     "home": {
      "team": "NYG",
-     "score": null
+     "score": 23
     },
     "away": {
      "team": "JAX",
-     "score": null
+     "score": 18
     }
    },
    {
     "id": "401873077",
     "date": "2026-11-23T01:20Z",
-    "status": "upcoming",
-    "detail": "11/22 - 8:20 PM EST",
+    "status": "live",
+    "detail": "6:01 - 1st",
     "home": {
      "team": "SF",
-     "score": null
+     "score": 7
     },
     "away": {
      "team": "MIN",
-     "score": null
+     "score": 0
     }
    },
    {
