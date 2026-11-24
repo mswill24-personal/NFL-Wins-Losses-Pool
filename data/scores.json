@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T02:15:00.877Z",
+ "updated": "2026-11-24T13:49:55.557Z",
  "season": 2026,
  "currentWeek": 11,
  "weeks": {
@@ -2295,15 +2295,15 @@
    {
     "id": "401873078",
     "date": "2026-11-24T01:15Z",
-    "status": "live",
-    "detail": "4:33 - 2nd",
+    "status": "final",
+    "detail": "Final",
     "home": {
      "team": "WSH",
-     "score": 0
+     "score": 22
     },
     "away": {
      "team": "CIN",
-     "score": 3
+     "score": 20
     }
    }
   ]
