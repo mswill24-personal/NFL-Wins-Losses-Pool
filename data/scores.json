@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T03:36:43.826Z",
+ "updated": "2026-11-26T16:58:53.012Z",
  "season": 2026,
  "currentWeek": 12,
  "weeks": {
@@ -2311,11 +2311,11 @@
    {
     "id": "401873079",
     "date": "2026-11-26T01:00Z",
-    "status": "live",
-    "detail": "2:41 - 3rd",
+    "status": "final",
+    "detail": "Final",
     "home": {
      "team": "LAR",
-     "score": 20
+     "score": 26
     },
     "away": {
      "team": "GB",
