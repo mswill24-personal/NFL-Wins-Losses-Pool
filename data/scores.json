@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T12:32:48.058Z",
+ "updated": "2026-11-27T23:29:57.083Z",
  "season": 2026,
  "currentWeek": 12,
  "weeks": {
@@ -2367,15 +2367,15 @@
    {
     "id": "401873083",
     "date": "2026-11-27T20:00Z",
-    "status": "upcoming",
-    "detail": "11/27 - 3:00 PM EST",
+    "status": "final",
+    "detail": "Final",
     "home": {
      "team": "PIT",
-     "score": null
+     "score": 27
     },
     "away": {
      "team": "DEN",
-     "score": null
+     "score": 5
     }
    },
    {
