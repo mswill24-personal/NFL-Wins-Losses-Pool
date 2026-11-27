@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T16:58:53.012Z",
+ "updated": "2026-11-27T01:45:42.203Z",
  "season": 2026,
  "currentWeek": 12,
  "weeks": {
@@ -2325,43 +2325,43 @@
    {
     "id": "401873081",
     "date": "2026-11-26T18:00Z",
-    "status": "upcoming",
-    "detail": "11/26 - 1:00 PM EST",
+    "status": "final",
+    "detail": "Final",
     "home": {
      "team": "DET",
-     "score": null
+     "score": 35
     },
     "away": {
      "team": "CHI",
-     "score": null
+     "score": 39
     }
    },
    {
     "id": "401873080",
     "date": "2026-11-26T21:30Z",
-    "status": "upcoming",
-    "detail": "11/26 - 4:30 PM EST",
+    "status": "final",
+    "detail": "Final",
     "home": {
      "team": "DAL",
-     "score": null
+     "score": 38
     },
     "away": {
      "team": "PHI",
-     "score": null
+     "score": 39
     }
    },
    {
     "id": "401873082",
     "date": "2026-11-27T01:20Z",
-    "status": "upcoming",
-    "detail": "11/26 - 8:20 PM EST",
+    "status": "live",
+    "detail": "7:18 - 1st",
     "home": {
      "team": "BUF",
-     "score": null
+     "score": 0
     },
     "away": {
      "team": "KC",
-     "score": null
+     "score": 0
     }
    },
    {
